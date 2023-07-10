@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/favicon.png"
+    />
+    <title>Netflix India – Watch TV Shows Online, Watch Movies Online</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="backImg">
+      <img src="assets/hero-main.jpg" alt="" class="hero-img">
+      <div class="div-img" style="background-image:linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);"></div>
+    </div>
+    
+    <header>
+      <div class="header-under">
+        <div class="logo">
+          <img
+            src="assets/netflix-logo-png-2582.png"
+            class="logo-img"
+            alt=""
+          /> 
+        </div>
+        <div class="language-box">
+          <i class="fa-solid fa-globe iconn"></i>
+          <select name="language" id="">
+            <option value="English">English</option>
+          </select>
+          <i
+            class="fa-sharp fa-solid fa-caret-down"
+            style="
+              color: white;
+              position: absolute;
+              z-index: 0;
+              top: 8px;
+              right: 10px;
+            "
+          ></i>
+        </div>
+
+        <button type="submit" class="login-btn">Sign In</button>
+      </div>
+    </header>
+    <div class="container">
+
+      <div class="main">
+        <div class="main-sub">
+          <span class="first">Unlimited movies, TV shows and more</span>
+          <p class="second">Watch anywhere. Cancel anytime.</p>
+          <div class="sub">
+            <h3>
+              Ready to watch? Enter your email to create or restart your
+              membership.
+            </h3>
+            <div class="user-field">
+              <div class="inner-container">
+                <div class="email-contianer">
+                  <input
+                    type="email"
+                    placeholder="Email address"
+                    class="email"
+                  />
+                  <p class="email-error hidden">
+                    <i
+                      class="fa-regular fa-circle-xmark"
+                      style="color: #eb0f0f"
+                    ></i>
+                    Email is required.
+                  </p>
+                </div>
+                <button type="submit" class="enter">
+                  Get Started<i class="fa-solid fa-chevron-right"></i></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="break"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
